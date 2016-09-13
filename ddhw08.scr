@@ -1,0 +1,248 @@
+Script started on Wed 13 Jul 2016 03:21:52 PM PDT
+]0;danyelle@ddixson: ~/ddixson01/ddhw08[01;32mdanyelle@ddixson[00m:[01;34m~/ddixson01/ddhw08[00m$ date
+Wed Jul 13 15:21:54 PDT 2016
+]0;danyelle@ddixson: ~/ddixson01/ddhw08[01;32mdanyelle@ddixson[00m:[01;34m~/ddixson01/ddhw08[00m$ ls -l
+total 116
+-rw-rw-r-- 1 danyelle danyelle  1580 Jul 12 17:01 addrec.cpp
+-rw-rw-r-- 1 danyelle danyelle  7464 Jul 12 17:08 addrec.o
+-rw-rw-r-- 1 danyelle danyelle     0 Jul 12 17:09 booksdb.txt
+-rwxrwxr-x 1 danyelle danyelle 21088 Jul 12 17:08 [0m[01;32mddhw08[0m
+-rw-rw-r-- 1 danyelle danyelle   611 Jul 10 23:04 ddhw08.cpp
+-rw-rw-r-- 1 danyelle danyelle   664 Jul 12 17:07 ddhw08.h
+-rw-rw-r-- 1 danyelle danyelle  3168 Jul 12 17:08 ddhw08.o
+-rw-rw-r-- 1 danyelle danyelle     0 Jul 13 15:21 ddhw08.scr
+-rw-rw-r-- 1 danyelle danyelle   279 Jul 10 23:05 delptr.cpp
+-rw-rw-r-- 1 danyelle danyelle  3416 Jul 12 17:08 delptr.o
+-rw-rw-r-- 1 danyelle danyelle  1390 Jul 12 17:06 delrec.cpp
+-rw-rw-r-- 1 danyelle danyelle  5720 Jul 12 17:08 delrec.o
+-rw-rw-r-- 1 danyelle danyelle   457 Jul  8 01:06 list of add recs.txt
+-rw-rw-r-- 1 danyelle danyelle   885 Jul 10 23:09 Makefile
+-rw-rw-r-- 1 danyelle danyelle   807 Jul 10 23:07 menu.cpp
+-rw-rw-r-- 1 danyelle danyelle  3816 Jul 12 17:08 menu.o
+-rw-rw-r-- 1 danyelle danyelle   560 Jul 10 23:10 savenexit.cpp
+-rw-rw-r-- 1 danyelle danyelle  4408 Jul 12 17:08 savenexit.o
+-rw-rw-r-- 1 danyelle danyelle   848 Jul 10 23:10 showrec.cpp
+-rw-rw-r-- 1 danyelle danyelle  6376 Jul 12 17:08 showrec.o
+-rw-rw-r-- 1 danyelle danyelle   599 Jul 10 23:11 showrecs.cpp
+-rw-rw-r-- 1 danyelle danyelle  3512 Jul 12 17:08 showrecs.o
+]0;danyelle@ddixson: ~/ddixson01/ddhw08[01;32mdanyelle@ddixson[00m:[01;34m~/ddixson01/ddhw08[00m$ make all
+make: Nothing to be done for 'all'.
+]0;danyelle@ddixson: ~/ddixson01/ddhw08[01;32mdanyelle@ddixson[00m:[01;34m~/ddixson01/ddhw08[00m$ valgring[Kd ./ddhw08
+==3205== Memcheck, a memory error detector
+==3205== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.
+==3205== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==3205== Command: ./ddhw08
+==3205== 
+
+Book Catalog Menu:
+1. Add a record
+2. Delete a record
+3. Display a record
+4. Display all records
+5. Save and exit
+Enter your choice: 1
+
+Please enter isbn of book: ^^?  0333638514 9780333638514
+Please enter the author of the book: Royce,Tony
+Please enter the title of the book: C programming
+
+Would you like to add another book?(Y/N): y
+
+Please enter isbn of book: ^0201144719 9780201144710
+Please enter the author of the book: Date, C.J.
+Please enter the title of the book: Introduction to database systems
+
+Would you like to add another book?(Y/N): y
+
+Please enter isbn of book: 0619062134 9780619062132 0619159448 9780619159443
+Please enter the author of the book: Malik, D.S.
+Please enter the title of the book: C++ programming : from problem analysis to program design
+
+Would you like to add another book?(Y/N): y
+
+Please enter isbn of book: 0201889544 9780201889543
+Please enter the author of the book: Stroustrup, Bjarne
+Please enter the title of the book: C++ programming language
+
+Would you like to add another book?(Y/N): y
+
+Please enter isbn of book: 058503091X 9780585030913
+Please enter the author of the book: Oualline, Steve
+Please enter the title of the book: Practical C programming
+
+Would you like to add another book?(Y/N): y
+
+Please enter isbn of book: 9781598639414 1598639412
+Please enter the author of the book: Lee, Mark
+Please enter the title of the book: ^C++ programming for the absolute beginner
+
+Would you like to add another book?(Y/N): n
+
+Book Catalog Menu:
+1. Add a record
+2. Delete a record
+3. Display a record
+4. Display all records
+5. Save and exit
+Enter your choice: 4
+
+ISBN: 0333638514 9780333638514
+Author: Royce,Tony
+Title: C programming
+
+
+ISBN: 0201144719 9780201144710
+Author: Date, C.J.
+Title: Introduction to database systems
+
+
+ISBN: 0619062134 9780619062132 0619159448 9780619159443
+Author: Malik, D.S.
+Title: C++ programming : from problem analysis to program design
+
+
+ISBN: 0201889544 9780201889543
+Author: Stroustrup, Bjarne
+Title: C++ programming language
+
+
+ISBN: 058503091X 9780585030913
+Author: Oualline, Steve
+Title: Practical C programming
+
+
+ISBN: 9781598639414 1598639412
+Author: Lee, Mark
+Title: C++ programming for the absolute beginner
+
+
+Book Catalog Menu:
+1. Add a record
+2. Delete a record
+3. Display a record
+4. Display all records
+5. Save and exit
+Enter your choice: 1
+
+Would you like to add another book?(Y/N): n
+
+Book Catalog Menu:
+1. Add a record
+2. Delete a record
+3. Display a record
+4. Display all records
+5. Save and exit
+Enter your choice: 4
+
+ISBN: 0333638514 9780333638514
+Author: Royce,Tony
+Title: C programming
+
+
+ISBN: 0201144719 9780201144710
+Author: Date, C.J.
+Title: Introduction to database systems
+
+
+ISBN: 0619062134 9780619062132 0619159448 9780619159443
+Author: Malik, D.S.
+Title: C++ programming : from problem analysis to program design
+
+
+ISBN: 0201889544 9780201889543
+Author: Stroustrup, Bjarne
+Title: C++ programming language
+
+
+ISBN: 058503091X 9780585030913
+Author: Oualline, Steve
+Title: Practical C programming
+
+
+ISBN: 9781598639414 1598639412
+Author: Lee, Mark
+Title: C++ programming for the absolute beginner
+
+
+Book Catalog Menu:
+1. Add a record
+2. Delete a record
+3. Display a record
+4. Display all records
+5. Save and exit
+Enter your choice: 3
+Please enter the title of the book you would like to display: C++ programming for the absolute beginner
+
+ISBN: 9781598639414 1598639412
+Author: Lee, Mark
+Title: C++ programming for the absolute beginner
+
+
+Book Catalog Menu:
+1. Add a record
+2. Delete a record
+3. Display a record
+4. Display all records
+5. Save and exit
+Enter your choice: 2
+
+Please enter the title of book you would like to delete: C++ programming language
+
+Book Catalog Menu:
+1. Add a record
+2. Delete a record
+3. Display a record
+4. Display all records
+5. Save and exit
+Enter your choice: 4
+
+ISBN: 0333638514 9780333638514
+Author: Royce,Tony
+Title: C programming
+
+
+ISBN: 0201144719 9780201144710
+Author: Date, C.J.
+Title: Introduction to database systems
+
+
+ISBN: 0619062134 9780619062132 0619159448 9780619159443
+Author: Malik, D.S.
+Title: C++ programming : from problem analysis to program design
+
+
+ISBN: 058503091X 9780585030913
+Author: Oualline, Steve
+Title: Practical C programming
+
+
+ISBN: 9781598639414 1598639412
+Author: Lee, Mark
+Title: C++ programming for the absolute beginner
+
+
+Book Catalog Menu:
+1. Add a record
+2. Delete a record
+3. Display a record
+4. Display all records
+5. Save and exit
+Enter your choice: 5
+==3205== 
+==3205== HEAP SUMMARY:
+==3205==     in use at exit: 73,837 bytes in 18 blocks
+==3205==   total heap usage: 35 allocs, 17 frees, 102,507 bytes allocated
+==3205== 
+==3205== LEAK SUMMARY:
+==3205==    definitely lost: 224 bytes in 2 blocks
+==3205==    indirectly lost: 909 bytes in 15 blocks
+==3205==      possibly lost: 0 bytes in 0 blocks
+==3205==    still reachable: 72,704 bytes in 1 blocks
+==3205==         suppressed: 0 bytes in 0 blocks
+==3205== Rerun with --leak-check=full to see details of leaked memory
+==3205== 
+==3205== For counts of detected and suppressed errors, rerun with: -v
+==3205== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+]0;danyelle@ddixson: ~/ddixson01/ddhw08[01;32mdanyelle@ddixson[00m:[01;34m~/ddixson01/ddhw08[00m$ exit
+
+Script done on Wed 13 Jul 2016 03:26:35 PM PDT
